@@ -1319,7 +1319,7 @@ em, .accent {
     justify-content: center;
     cursor: pointer;
   }
-  .nav-toggle span {
+  .nav-bars {
     display: block;
     width: 16px; height: 2px;
     background: var(--ink);
@@ -1327,7 +1327,7 @@ em, .accent {
     position: relative;
     transition: transform 0.3s var(--ease), opacity 0.3s var(--ease);
   }
-  .nav-toggle span::before, .nav-toggle span::after {
+  .nav-bars::before, .nav-bars::after {
     content: "";
     position: absolute;
     left: 0;
@@ -1336,11 +1336,11 @@ em, .accent {
     border-radius: 2px;
     transition: transform 0.3s var(--ease);
   }
-  .nav-toggle span::before { top: -5px; }
-  .nav-toggle span::after { top: 5px; }
-  .nav-toggle[aria-expanded="true"] span { background: transparent; }
-  .nav-toggle[aria-expanded="true"] span::before { transform: translateY(5px) rotate(45deg); }
-  .nav-toggle[aria-expanded="true"] span::after { transform: translateY(-5px) rotate(-45deg); }
+  .nav-bars::before { top: -5px; }
+  .nav-bars::after { top: 5px; }
+  .nav-toggle[aria-expanded="true"] .nav-bars { background: transparent; }
+  .nav-toggle[aria-expanded="true"] .nav-bars::before { transform: translateY(5px) rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] .nav-bars::after { transform: translateY(-5px) rotate(-45deg); }
 
   .nav-links {
     position: absolute;
