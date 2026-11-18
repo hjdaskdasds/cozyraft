@@ -1,0 +1,17 @@
+# Cozy Raft
+
+> Cozy Raft is a gentle habit app for iPhone. Doing one small task makes a crate drift in; opening crates grows a wooden raft you can build on. No account is required and habit data stays on the device.
+
+## Pages
+
+- [Home](https://hjdaskdasds.github.io/cozyraft/): what the app is, how the daily ritual works, features, Raft Pass, privacy and contact.
+- [Terms of Use](https://hjdaskdasds.github.io/cozyraft/terms.html): licence, subscriptions and billing, Apple's role, consumer rights.
+- [Privacy Policy](https://hjdaskdasds.github.io/cozyraft/privacy.html): what stays on the iPhone, purchase processing, GDPR/UK/Swiss and US state privacy rights.
+
+## Facts
+
+- Platform: iPhone, iOS 17 or later.
+- Price: free to use; optional Raft Pass auto-renewable subscription, billed by Apple.
+- Accounts: none. Progress is stored locally on the device.
+- Apple Health: optional, on-device reading of steps, water and mindful minutes.
+- Contact: matt1232026@gmail.com

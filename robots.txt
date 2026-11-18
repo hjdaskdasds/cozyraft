@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hjdaskdasds.github.io/cozyraft/sitemap.xml
